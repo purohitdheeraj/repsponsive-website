@@ -11,14 +11,14 @@ body {
 	font-size: 1.6rem;
 	max-width: 1024px;
 	margin: 0 auto;
-}
-
-body > * {
-	/* border: 1px solid; */
+	font-family: sans-serif;
 }
 
 .hero-image {
 	width: 100%;
+	border-radius: 8px;
+	outline: 1px solid;
+	object-fit: contain;
 }
 
 /* navbar */
@@ -51,7 +51,38 @@ li a {
 	color: #000;
 }
 
-@media (max-width: 767px) {
+/* Main - Body Part */
+
+main {
+	padding: 1em;
+	background: navajowhite;
+}
+
+main h3 {
+	color: cadetblue;
+}
+
+/* actions */
+
+.btn {
+	display: block;
+	padding: 0.5em 1em;
+	border: 0;
+	background: goldenrod;
+	border-radius: 4px;
+	margin: 0.5em;
+	text-align: center;
+}
+
+/* footer */
+
+footer {
+	background: palevioletred;
+	text-align: center;
+	padding: 0.5em;
+}
+
+@media (max-width: 768px) {
 	.header {
 		text-align: center;
 	}
@@ -79,5 +110,9 @@ li a {
 
 	.header .nav {
 		margin-left: auto;
+	}
+
+	.btn {
+		display: inline-block;
 	}
 }
