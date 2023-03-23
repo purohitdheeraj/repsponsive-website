@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 }
 
@@ -16,10 +18,10 @@ body {
 
 .hero-image {
 	width: 100%;
-  height: 100%;
-  border-radius: 8px;
+	height: 100%;
+	border-radius: 8px;
 	object-fit: cover;
-  object-position: bottom;
+	object-position: bottom;
 }
 
 /* navbar */
@@ -117,7 +119,7 @@ footer {
 		display: inline-block;
 	}
 
-  .feature-image{
-    height: 50rem;
-  }
+	.feature-image {
+		height: 50rem;
+	}
 }
