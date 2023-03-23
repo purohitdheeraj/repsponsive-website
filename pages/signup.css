@@ -1,0 +1,62 @@
+.intro,
+.register {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 50%;
+}
+
+.intro,
+.register {
+	padding: 1em;
+	text-align: center;
+}
+
+.intro {
+	background: #000
+		url("../assets/images/splash-page-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center left;
+	min-height: 50rem;
+	color: blanchedalmond;
+	text-shadow: 0px 0px 4px lightcoral;
+}
+
+.intro p {
+	font-size: 3.2vw;
+}
+
+.intro h3,
+small {
+	text-transform: uppercase;
+}
+
+.register {
+	background: #fff;
+}
+
+.register h4 {
+	text-transform: uppercase;
+}
+
+.signup-form input,
+button {
+	display: inline-block;
+	width: 100%;
+	margin: 0.5em 0;
+	padding: 1em 0.5em;
+	border-radius: 0.5em;
+}
+
+.signup-form button {
+	border: none;
+}
+
+@media (min-width: 768px) {
+	.splash-page {
+		display: flex;
+		height: 100vh;
+	}
+}

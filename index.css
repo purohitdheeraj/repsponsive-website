@@ -31,11 +31,11 @@ body {
 }
 
 .heading {
-	font-size: 2.8rem;
+	font-size: 2.8vw;
 }
 
 .subheading {
-	font-size: 2.4rem;
+	font-size: 2.4vw;
 	color: gray;
 }
 
@@ -56,12 +56,12 @@ li a {
 
 /* Main - Body Part */
 
-main {
+.main {
 	padding: 1em;
 	background: navajowhite;
 }
 
-main h3 {
+.main h3 {
 	color: cadetblue;
 }
 
